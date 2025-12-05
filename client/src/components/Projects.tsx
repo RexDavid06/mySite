@@ -9,11 +9,11 @@ export default function Projects() {
   // Mock project data - todo: remove mock functionality
   const projects: ProjectProps[] = [
     {
-      title: "Contact API",
-      description: "A simple Contact Book API built with Django REST Framework, using ViewSets and Routers to provide full CRUD functionality. Authentication is handled using JWT (JSON Web Tokens) via djangorestframework-simplejwt.",
-      liveUrl: "",
-      techStack: ["Python", "Django", "DjangoRest_Framework",  "PostgreSQL"],
-      githubUrl: "https://github.com/RexDavid06/contact-API"
+      title: "MinstrelHub API",
+      description: "A Django REST API that handles user authentication, client/musician roles, and provides endpoints for listing, verifying, and managing musicians on the MinstrelHub platform",
+      liveUrl: "https://minstrelhubapi.onrender.com",
+      techStack: ["Python", "Django", "DjangoRest_Framework", ],
+      githubUrl: "https://github.com/RexDavid06/minstrelHubAPI"
     },
     {
       title: "Inventory Management System",
@@ -23,20 +23,13 @@ export default function Projects() {
       githubUrl: "https://github.com/RexDavid06/inventory"
     },
     {
-      title: "CharziClean",
-      description: "CharziClean is a Django-powered e-commerce platform offering a range of cleaning and lifestyle products. Includes dynamic product filtering, category-based navigation, and user-friendly design.",
-      techStack: ["Django", "Python", "HTML", "CSS"],
-      liveUrl: "",
-      githubUrl: "https://github.com/RexDavid06/charziclean"
+      title: "QuoteAPI with caching using REDIS",
+      description: "A small Django project built to learn Redis. It serves quotes and caches responses for 20 seconds, demonstrating how Redis improves performance on repeated requests. It also tracks total visits and each user’s visits using Redis counters.",
+      techStack: ["DjangoRest_Framework", "Python", "Redis"],
+      liveUrl: "https://quotepulseapi.onrender.com/quote",
+      githubUrl: "https://github.com/RexDavid06/QuotePulseApi"
     },
-    {
-      title: "Blog Application",
-      description: "A Django-powered blog application where users can sign up, create posts, and manage their profile. This project demonstrates core Django features including user authentication, model relationships, and basic frontend styling.",
-      techStack: ["Django", "Python", "HTML", "CSS"],
-      liveUrl: "",
-      githubUrl: "https://github.com/RexDavid06/blogApp"
-    },
-  
+   
   ];
 
   useEffect(() => {

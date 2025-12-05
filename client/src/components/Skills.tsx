@@ -9,7 +9,7 @@ export default function Skills() {
     },
     {
       title: "Backend Development", 
-      skills: ["Python", "Django", "PostgreSQL", "REST APIs"]
+      skills: ["Python", "DjangoRest_Framework", "PostgreSQL", "REST APIs,", "Redis"]
     },
     {
       title: "Tools & Technologies",
