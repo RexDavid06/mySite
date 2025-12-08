@@ -11,7 +11,7 @@ export default function Projects() {
     {
       title: "MinstrelHub API",
       description: "A Django REST API that handles user authentication, client/musician roles, and provides endpoints for listing, verifying, and managing musicians on the MinstrelHub platform",
-      liveUrl: "https://minstrelhubapi.onrender.com",
+      liveUrl: "https://minstrelhubapi.onrender.com/api/musicians/list/",
       techStack: ["Python", "Django", "DjangoRest_Framework", ],
       githubUrl: "https://github.com/RexDavid06/minstrelHubAPI"
     },
