@@ -11,7 +11,7 @@ export default function Projects() {
     {
       title: "MinstrelHub API",
       description: "A Django REST API that handles user authentication, client/musician roles, and provides endpoints for listing, verifying, and managing musicians on the MinstrelHub platform",
-      liveUrl: "https://minstrelhubapi.onrender.com/api/musicians/list/",
+      liveUrl: "https://musicianconnect.onrender.com/",
       techStack: ["Python", "Django", "DjangoRest_Framework", ],
       githubUrl: "https://github.com/RexDavid06/minstrelHubAPI"
     },
@@ -26,7 +26,7 @@ export default function Projects() {
       title: "QuoteAPI with caching using REDIS",
       description: "A small Django project built to learn Redis. It serves quotes and caches responses for 20 seconds, demonstrating how Redis improves performance on repeated requests. It also tracks total visits and each user’s visits using Redis counters.",
       techStack: ["DjangoRest_Framework", "Python", "Redis"],
-      liveUrl: "https://quotepulseapi.onrender.com/quote",
+      liveUrl: "",
       githubUrl: "https://github.com/RexDavid06/QuotePulseApi"
     },
    
