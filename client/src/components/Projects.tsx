@@ -16,11 +16,11 @@ export default function Projects() {
       githubUrl: "https://github.com/RexDavid06/minstrelHubAPI"
     },
     {
-      title: "Inventory Management System",
-      description: "An Inventory Management System built with Django 5, designed to help businesses efficiently track their products, stock levels, suppliers, and transactions (stock in & stock out).",
-      techStack: ["Python", "Django", "Html", "CSS3", "PostgreSQL"],
-      liveUrl: "",
-      githubUrl: "https://github.com/RexDavid06/inventory"
+      title: " User Wallet API",
+      description: "A secure and minimal User Wallet API built with Django and Django REST Framework.This project demonstrates fintech-grade wallet logic, including safe money handling using Decimal, atomic transactions, and JWT authentication..",
+      techStack: ["Python", "DjangoRest_Framework",],
+      liveUrl: "https://userwalletapi.onrender.com/",
+      githubUrl: "https://github.com/RexDavid06/User-Wallet-Api"
     },
     {
       title: "QuoteAPI with caching using REDIS",
