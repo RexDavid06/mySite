@@ -22,6 +22,13 @@ export default function Projects() {
       liveUrl: "https://userwalletapi.onrender.com/",
       githubUrl: "https://github.com/RexDavid06/User-Wallet-Api"
     },
+     {
+      title: " p2p payment API",
+      description: "A peer-to-peer payment API built with Django REST Framework that allows users to create accounts, manage wallets, and perform secure fund transfers between users. The API includes features such as user authentication, wallet balance management, and transaction history tracking.",
+      techStack: ["Python", "DjangoRest_Framework", "PostgreSQL", "Docker", "SwaggerDocs"],
+      liveUrl: "",
+      githubUrl: "https://github.com/RexDavid06/p2p-API"
+    },
     {
       title: "QuoteAPI with caching using REDIS",
       description: "A small Django project built to learn Redis. It serves quotes and caches responses for 20 seconds, demonstrating how Redis improves performance on repeated requests. It also tracks total visits and each user’s visits using Redis counters.",
