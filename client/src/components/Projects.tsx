@@ -9,6 +9,13 @@ export default function Projects() {
   // Mock project data - todo: remove mock functionality
   const projects: ProjectProps[] = [
     {
+      title: "E-Bank API",
+      description: "A Fintech banking API.....still in progress🌝 ",
+      liveUrl: "",
+      techStack: ["Python", "DjangoRest_Framework", "PostgreSQL", "Docker" ],
+      githubUrl: "https://github.com/RexDavid06/e-bankAPI"
+    },
+    {
       title: "MinstrelHub API",
       description: "A Django REST API that handles user authentication, client/musician roles, and provides endpoints for listing, verifying, and managing musicians on the MinstrelHub platform",
       liveUrl: "https://musicianconnect.onrender.com/",
