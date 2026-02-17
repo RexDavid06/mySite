@@ -43,6 +43,13 @@ export default function Projects() {
       liveUrl: "",
       githubUrl: "https://github.com/RexDavid06/QuotePulseApi"
     },
+      {
+      title: "X-ceptional Graphics Design",
+      description: "This API helps a designer to post he's project in his portfolio site",
+      techStack: ["DjangoRest_Framework", "Python", "SQLite],
+      liveUrl: "",
+      githubUrl: "https://github.com/RexDavid06/XCG"
+    },
    
   ];
 
