@@ -9,7 +9,7 @@ export default function Skills() {
     },
     {
       title: "Tools & Technologies",
-      skills: ["Git", "GitHub", "VS Code", "Vercel", "Render", "Postman", "Docker"]
+      skills: ["Git", "GitHub", "VS Code", "Vercel", "Render", "Bruno(restClient)", "Docker"]
     },
     {
       title: "Core Competencies",
