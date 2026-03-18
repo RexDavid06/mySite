@@ -37,16 +37,16 @@ export default function Projects() {
       githubUrl: "https://github.com/RexDavid06/p2p-API"
     },
     {
-      title: "QuoteAPI with caching using REDIS",
-      description: "A small Django project built to learn Redis. It serves quotes and caches responses for 20 seconds, demonstrating how Redis improves performance on repeated requests. It also tracks total visits and each user’s visits using Redis counters.",
-      techStack: ["DjangoRest_Framework", "Python", "Redis"],
+      title: "Mechanic Gym API",
+      description: "The Backend that holds the Mechanic GYM app",
+      techStack: ["DjangoRest_Framework", "Python", "PostgreSQL"],
       liveUrl: "",
-      githubUrl: "https://github.com/RexDavid06/QuotePulseApi"
+      githubUrl: "https://github.com/RexDavid06/Mechanic-Backend/"
     },
       {
       title: "X-ceptional Graphics Design",
       description: "This API helps a designer to post he's project in his portfolio site",
-      techStack: ["DjangoRest_Framework", "Python", "SQLite],
+      techStack: ["DjangoRest_Framework", "Python", "SQLite"],
       liveUrl: "",
       githubUrl: "https://github.com/RexDavid06/XCG"
     },
