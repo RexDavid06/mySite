@@ -4,16 +4,16 @@ import { Badge } from '@/components/ui/badge';
 export default function Skills() {
   const skillCategories = [
     {
-      title: "My Stack", 
-      skills: ["Python", "DjangoRestFramework", "PostgreSQL", "Docker", "Redis"]
+      title: "Backend Development", 
+      skills: ["Python", "DjangoRestFramework", "PostgreSQL"]
     },
     {
-      title: "Tools & Technologies",
-      skills: ["Git", "GitHub", "VS Code", "Vercel", "Render", "Bruno(restClient)", "Docker"]
+      title: "Databases",
+      skills: ["PostgreSQL", "MySQL", "SQLite"]
     },
     {
-      title: "Core Competencies",
-      skills: ["Problem Solving", "Team Collaboration", "Agile/Scrum", "Code Review", "Testing", "Performance Optimization"]
+      title: "API and Security",
+      skills: ["RESTful API Design", "JWT Authentication","API Rate Limiting"]
     }
   ];
 

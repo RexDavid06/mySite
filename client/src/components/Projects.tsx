@@ -10,18 +10,12 @@ export default function Projects() {
   const projects: ProjectProps[] = [
     {
       title: "PayFlow API",
-      description: "A Fintech banking API.....still in progress🌝 ",
+      description: "Built a fintech-style banking API supportingwallet creation, account validation,peer-to-peer transfers, transaction history,and atomic balance updates. ",
       liveUrl: "",
       techStack: ["Python", "DjangoRest_Framework", "PostgreSQL", "Docker" ],
       githubUrl: "https://github.com/RexDavid06/e-bankAPI"
     },
-    {
-      title: "MinstrelHub API",
-      description: "A Django REST API that handles user authentication, client/musician roles, and provides endpoints for listing, verifying, and managing musicians on the MinstrelHub platform",
-      liveUrl: "https://musicianconnect.onrender.com/",
-      techStack: ["Python", "Django", "DjangoRest_Framework", ],
-      githubUrl: "https://github.com/RexDavid06/minstrelHubAPI"
-    },
+    
     {
       title: " User Wallet API",
       description: "A secure and minimal User Wallet API built with Django and Django REST Framework.This project demonstrates fintech-grade wallet logic, including safe money handling using Decimal, atomic transactions, and JWT authentication..",
@@ -36,20 +30,7 @@ export default function Projects() {
       liveUrl: "",
       githubUrl: "https://github.com/RexDavid06/p2p-API"
     },
-    {
-      title: "Mechanic Gym API",
-      description: "The Backend that holds the Mechanic GYM app",
-      techStack: ["DjangoRest_Framework", "Python", "PostgreSQL"],
-      liveUrl: "",
-      githubUrl: "https://github.com/RexDavid06/Mechanic-Backend/"
-    },
-      {
-      title: "X-ceptional Graphics Design",
-      description: "This API helps a designer to post he's project in his portfolio site",
-      techStack: ["DjangoRest_Framework", "Python", "SQLite"],
-      liveUrl: "",
-      githubUrl: "https://github.com/RexDavid06/XCG"
-    },
+
    
   ];
 

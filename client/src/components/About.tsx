@@ -5,22 +5,22 @@ export default function About() {
   const highlights = [
     {
       icon: Code2,
-      title: 'Clean Code',
-      description: 'Writing maintainable, scalable code with modern best practices'
+      title: 'API Development',
+      description: 'Creating robust and efficient APIs with modern best practices'
     },
     {
       icon: Lightbulb,
-      title: 'Problem Solving',
-      description: 'Turning complex challenges into elegant, user-friendly solutions'
+      title: 'Database Design',
+      description: 'Designing efficient and scalable database schemas'
     },
     {
       icon: Users,
-      title: 'Collaboration',
-      description: 'Working effectively in teams to deliver exceptional results'
+      title: 'Backend Architecture',
+      description: 'Designing and implementing scalable backend systems'
     },
     {
       icon: Zap,
-      title: 'Performance',
+      title: 'System Optimization',
       description: 'Optimizing applications for speed and exceptional user experience'
     }
   ];

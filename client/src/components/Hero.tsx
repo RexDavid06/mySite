@@ -10,34 +10,33 @@ export default function Hero({ onScrollToProjects }: HeroProps) {
     <section className="min-h-screen flex flex-col justify-center items-center relative">
       {/* Gradient Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-accent/20 via-chart-2/10 to-transparent"></div>
-      
+
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="space-y-8">
           {/* Main Heading */}
           <div className="space-y-4">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-              Software Developer
+              Buchi Rex-David
             </h1>
             <p className="text-xl sm:text-2xl lg:text-3xl text-muted-foreground font-light">
-              Building digital experiences with modern web technologies
+              Backend Developer
             </p>
           </div>
 
           {/* Description */}
           <div className="max-w-2xl mx-auto">
             <p className="text-lg text-muted-foreground leading-relaxed">
-                I specialize in building reliable and scalable backend systems with Python and Django, 
-                and I enjoy working with REST APIs and modern web technologies. 
-                Passionate about clean architecture, performance, and creating solutions that are both 
-                efficient and impactful.
+              I build secure APIs, scalable backend systems,
+              and fintech-grade applications using Python,
+              Django, PostgreSQL and Docker.
             </p>
-        </div>
+          </div>
 
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               onClick={onScrollToProjects}
               data-testid="button-view-projects"
               className="min-w-[160px]"
