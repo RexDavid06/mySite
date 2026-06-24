@@ -7,7 +7,7 @@ interface HeroProps {
 
 export default function Hero({ onScrollToProjects }: HeroProps) {
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center relative">
+    <section className="hero-grid min-h-screen">
       {/* Gradient Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-accent/20 via-chart-2/10 to-transparent"></div>
 
@@ -15,9 +15,9 @@ export default function Hero({ onScrollToProjects }: HeroProps) {
         <div className="space-y-8">
           {/* Main Heading */}
           <div className="space-y-4">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-              Buchi Rex-David
-            </h1>
+            <h1 className="gradient-text text-6xl font-bold">
+  Buchi Rex-David
+</h1>
             <p className="text-xl sm:text-2xl lg:text-3xl text-muted-foreground font-light">
               Backend Developer
             </p>
@@ -35,14 +35,9 @@ export default function Hero({ onScrollToProjects }: HeroProps) {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button
-              size="lg"
-              onClick={onScrollToProjects}
-              data-testid="button-view-projects"
-              className="min-w-[160px]"
-            >
-              View My Work
-            </Button>
+            <Button className="glow">
+  View Projects
+</Button>
             <div className="flex space-x-4">
               <Button
                 variant="outline"

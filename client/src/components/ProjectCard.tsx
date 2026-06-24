@@ -36,7 +36,7 @@ const ProjectCard = forwardRef<HTMLDivElement, ProjectProps>(({
   return (
     <Card 
       ref={ref}
-      className="hover-elevate transition-all duration-300 h-full flex flex-col"
+      className="glass-card hover:scale-105 transition-all duration-300"
       data-testid={`card-project-${title.toLowerCase().replace(/\s+/g, '-')}`}
     >
       {/* Project Preview Area */}
